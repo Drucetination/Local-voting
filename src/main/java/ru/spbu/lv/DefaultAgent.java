@@ -14,6 +14,7 @@ public class DefaultAgent extends Agent {
 
         int id = Integer.parseInt(getAID().getLocalName());
 
+        // set values from example
         if (id == 1) {
             number = 8f;
         } else if (id == 2) {
@@ -26,8 +27,9 @@ public class DefaultAgent extends Agent {
             number = 0f;
         }
 
-//        Random randomizer = new Random();
-//        number = randomizer.nextFloat();
+        // set random values
+        // Random randomizer = new Random();
+        // number = randomizer.nextFloat();
 
         System.out.println("Agent №" + id + " has number " + number);
 
